@@ -1,0 +1,292 @@
+body{
+    background-color: #F6E5DC;
+}
+
+.Welcome{
+    font-family: "Lubalin Graph ITC Turner Bold";
+    font-size: 3.9375rem;
+    text-align: center;
+    left: 10px;
+    color: #653B2F;
+
+}
+
+.IntroStatement{
+    font-size: 1.25rem;
+    font-family: "Lato";
+    font-weight: normal;
+    text-align: center;
+    top: 0px;
+    color: #323232;
+}
+
+/*.FirstGridContainer{
+    display: grid;
+    border: 8px solid red;
+    padding: 0px;
+    grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
+    top: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.01rem;
+    padding-right: 0.01rem;
+    border: 8px solid red;
+    background-color: dodgerblue;
+    margin: 50px 0px 0px 370px;*/
+}
+
+  .FirstGridContainer{
+    display: grid;
+    border: 8px solid red;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+
+
+.FirstGridContainer > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+  }
+
+.grid-container{
+    display: grid;
+    border: 8px solid red;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 30px;
+    position: absolute;
+    top: 540px;
+    left: 120px;
+    justify-content: center;
+    row-gap: 330px;
+}
+
+
+.grid-container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.GridContainerForCircles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 70px;
+}
+
+.GridContainerForCircles img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.QuickThinking{
+    font-family: "Lato";
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    color: FFF7AF;
+}
+
+
+
+.QuickThinking a:hover{
+    drop box-shadow;
+  }
+
+.Memory{
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    color: #653B2F;
+}
+
+
+
+.Strategy{
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    color: #653B2F;
+}
+
+
+
+.Creativity{
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    color: #653B2F;
+}
+
+
+
+.Spelling{
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    color: #653B2F;
+}
+
+
+
+.Precision{
+    font-family: "Lato";
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    color: #653B2F;
+}
+
+
+
+@media (min-width: 500px){
+    .FirstGridContainer{
+        margin: 70px 50px 0px 50px;
+    }
+}
+
+@media (min-width: 650px){
+    .FirstGridContainer{
+        margin: 70px 100px 0px 100px;
+    }
+}
+
+@media (min-width: 900px){
+    .FirstGridContainer{
+            margin: 70px 200px 0px 200px;
+    }
+}
+
+@media (min-width: 1000px){
+    .FirstGridContainer{
+            margin: 70px 250px 0px 250px;
+    }
+}
+
+
+@media (min-width: 1100px){
+    .FirstGridContainer{
+            margin: 70px 300px 0px 300px;
+    }
+}
+
+
+
+@media (min-width: 340px){
+    .Welcome{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1300px){
+    .Welcome{
+        font-size: 3.9375rem;
+    }
+}
+
+@media (min-width: 340px){
+    .IntroStatement{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1300px){
+    .IntroStatement{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 2140px){
+    .grid-container{
+        margin: 0px 300px 0px 300px;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 2rem;
+    }
+
+@media (max-width: 1300px){
+    .grid-container{
+        margin: 0px 0px 0px 0px;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 2rem;
+    }
+
+    @media (max-width: 700px) {
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0px 30px 0px -90px;
+            font-size: 10px;
+            top: 400px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0px 30px 0px -110px;
+            font-size: 10px;
+            top: 400px;
+            row-gap: 220px;
+        }
+    }
+
+    @media (max-width: 700px){
+        .GridContainerForCircles{
+            grid-template-columns: repeat (2, 1fr);
+        }
+    }
+    
+
+@media (max-width: 700px) {
+    .QuickThinking,
+    .Memory,
+    .Strategy,
+    .Creativity,
+    .Spelling,
+    .Precision {
+        font-size: 1.25rem;
+    }
+
+/*@media (max-width: 500px) {
+    .QuickThinkingCircle { top:-230px; left: -300px; } 
+    .MemoryCircle { top:-230px; left: -245px; } 
+    .StrategyCircle { top:5px; left: -480px; } 
+    .CreativityCircle { top:5px; left: -245px; } 
+    .SpellingCircle { top:240px; left: -480px; } 
+    .PrecisionCircle { top:240px; left: -245px; } 
+}
+
+@media (max-width: 500px) {
+    .QuickThinkingCircle {transform: scale(0.14);} 
+    .MemoryCircle {transform: scale(0.14);} 
+    .StrategyCircle {transform: scale(0.14);} 
+    .CreativityCircle {transform: scale(0.14);} 
+    .SpellingCircle {transform: scale(0.14);} 
+    .PrecisionCircle {transform: scale(0.14);} 
+
+    @media (max-width: 393px) {
+        .QuickThinkingCircle { top:-230px; left: -320px; } 
+        .MemoryCircle { top:-230px; left: -310px; } 
+        .StrategyCircle { top:5px; left: -500px; } 
+        .CreativityCircle { top:5px; left: -310px; } 
+        .SpellingCircle { top:240px; left: -500px; } 
+        .PrecisionCircle { top:240px; left: -310px; } 
+    }
+    
+    @media (max-width: 393px) {
+        .QuickThinkingCircle {transform: scale(0.14);} 
+        .MemoryCircle {transform: scale(0.14);} 
+        .StrategyCircle {transform: scale(0.14);} 
+        .CreativityCircle {transform: scale(0.14);} 
+        .SpellingCircle {transform: scale(0.14);} 
+        .PrecisionCircle {transform: scale(0.14);} */
+
+
+
+ 

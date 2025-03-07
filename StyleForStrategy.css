@@ -1,0 +1,715 @@
+body{
+    margin: 0px;
+  }
+.NavigationBar ul{
+    list-style-type: none;
+    background-color: rgb(84, 84, 84);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: helvetica;
+    font-size: 20px;
+    }
+  
+  .NavigationBar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  
+  .NavigationBar a:hover{
+    background-color: rgb(52, 52, 52);
+  }
+  
+  .NavigationBar li{
+    float: left;
+  }
+
+.GridContainer{
+    max-width: 550px;
+    display: block;
+    border: 1px solid red;
+    position: absolute;
+    top: -650px;
+    left: 300px;
+    padding: 10px;
+    margin: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.01rem;
+    padding-right: 0.01rem;
+    align-items: start;
+    gap: 1em;
+  }
+  
+  @media*/ (min-width: 847px){
+    .GridContainer{
+      min-width: 847px;
+      margin: 20px auto; 
+      padding: 15px;
+    }
+  }
+
+  @media (max-width: 1730px) {
+    .GridContainer {
+      margin: 750px 200px 0px 200px; 
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .GridContainer {
+      margin: 750px 100px 0px 0px; 
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .GridContainer {
+      margin: 750px 200px 0px 0px; 
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .GridContainer {
+      font-size: 20px;
+      margin: 750px 0 0px -100px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .GridContainer {
+      font-size: 20px;
+      margin: 750px 0px 0px -200px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .GridContainer {
+      font-size: 20px;
+      margin: 750px 0px 0px -250px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .GridContainer {
+      font-size: 20px;
+      margin: 750px 0px 0px -290px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .GridContainer {
+      font-size: 20px;
+      margin: 750px 20px 0px -280px;
+    }
+  }
+  
+  .Grid*/Container{
+    display: grid;
+    border: 1px solid red;
+    position: absolute;
+    top: -650px;
+    left: 300px;
+    padding: 10px;
+    margin: 750px;
+    padding-left: 0.01rem;
+    padding-right: 0.01rem;
+    align-items: start;
+    gap: 1em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+  }
+
+
+  .Strategy{
+    color: black;
+    font-family: ITC Kabel Std;
+    font-weight: lighter;
+    font-size: 6rem;
+    color: #FFAA69;
+    position: absolute;
+    top: -100px;
+  }
+  
+
+
+  
+    @media (max-width: 900px) {
+      .Strategy {
+        font-size: 4.375rem;
+        top: -50px;
+      }
+    }
+  
+    @media (max-width: 500px) {
+      .Strategy {
+        font-size: 4rem;
+        position: absolute;
+        top: -30px;
+      }
+    }
+
+  .Checkers{
+      font-family: ITC Kabel Std;
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: #289280;
+      position: absolute;
+      top: 60px;
+  }
+  
+  .CheckersPic{
+    width: 825px; 
+    height: auto;
+  position: absolute;
+  top: 150px;
+  width: 130%; 
+    max-width: none; 
+    margin-left: 0; 
+    margin-right: -30%; 
+    display: block; 
+  }
+  
+  .CheckersBody{
+    color: black;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.125rem;
+    position: relative;
+    top: 700px;
+  }
+  
+  .AgeCheckers{
+    color: black;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.125rem;
+    position: relative;
+    position: relative;
+    top: 700px;
+  }
+  
+  .PlayersCheckers{
+    color: black;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.125rem;
+    position: relative;
+    top: 700px;
+  }
+  
+  .Connect4{
+    font-family: ITC Kabel Std;
+    font-weight:bold;
+    font-size: 2.5rem;
+    color: #289280;
+    position: relative;
+    top: 770px;
+  }
+  
+  .Connect4Pic{
+    width: 825px; 
+    height: auto;
+  position: absolute;
+  top: 1090px;
+  width: 130%; 
+    max-width: none; 
+    margin-left: 0; 
+    margin-right: -30%; 
+    display: block; 
+  }
+  
+  .Connect4Body{
+    color: black;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.125rem;
+    position: relative;
+    top: 1310px;
+  }
+  
+  .Connect4Age{
+    color: black;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.125rem;
+    position: relative;
+    top: 1310px;
+  }
+  
+  .Connect4Players{
+    color: black;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 1.125rem;
+    position: relative;
+    top: 1310px;  
+  }
+
+  .Battleship{
+    font-family: ITC Kabel Std;
+    font-weight:bold;
+    font-size: 2.5rem;
+    color: #289280;
+    position: relative;
+    top: 1390px;
+}
+
+.BattleshipPic{
+  width: 825px; 
+  height: auto;
+position: absolute;
+top: 2050px;
+width: 130%; 
+  max-width: none; 
+  margin-left: 0; 
+  margin-right: -30%; 
+  display: block; 
+}
+
+.BattleshipBody{
+  color: black;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 1.125rem;
+  position: relative;
+  top: 1940px;
+}
+
+.AgeBattleship{
+  color: black;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 1.125rem;
+  position: relative;
+  top: 1940px;
+}
+
+.PlayersBattleship{
+  color: black;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 1.125rem;
+  position: relative;
+  top: 1940px;
+}
+
+
+@media (max-width: 1100px) {
+    .Checkers {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 70px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Checkers {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 70px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Checkers {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 70px;
+    }
+  }
+ 
+
+  @media (max-width: 1100px) {
+    .CheckersPic {
+        width: 450px; 
+        height: auto;
+        position: absolute;
+        left: 25px;
+        top: 160px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .CheckersPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 160px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .CheckersPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 3px;
+      top: 160px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .CheckersBody {
+   font-size: 1rem;
+   top: 700px;
+    }
+  }
+  
+
+  @media (max-width: 1100px) {
+    .CheckersBody {
+   font-size: 1rem;
+   top: 500px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .CheckersBody {
+      font-size: 1rem;
+      top: 500px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .CheckersBody {
+      font-size: 1rem;
+      top: 500px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .AgeCheckers {
+        font-size: 1rem;
+        top: 700px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .PlayersCheckers {
+        font-size: 1rem;
+        top: 700px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .AgeCheckers{
+        font-size: 1rem;
+        top: 490px;
+       }
+     }
+
+  @media (max-width: 1100px) {
+    .PlayersCheckers{
+        font-size: 1rem;
+        top: 490px;
+       }
+     }
+
+
+  @media (max-width: 500px) {
+    .AgeCheckers{
+      font-size: 1rem;
+      top: 490px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .PlayersCheckers{
+      font-size: 1rem;
+      top: 490px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .Connect4 {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 950px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Connect4 {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 750px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Connect4 {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 760px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Connect4 {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 760px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .SimonPic {
+      width: 720px; 
+      height: auto;
+      position: absolute;
+      left: 5px;
+      top: 1050px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Connect4Pic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 840px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Connect4Pic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 850px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Connect4Pic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 3px;
+      top: 850px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .Connect4Body {
+   font-size: 1rem;
+   top: 1430px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Connect4Body {
+   font-size: 1rem;
+   top: 1020px;
+    }
+  }
+  
+
+  @media (max-width: 500px) {
+    .Connect4Body {
+      font-size: 1rem;
+   top: 982px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .Connect4Age {
+   font-size: 1rem;
+   top: 1430px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .Connect4Players {
+   font-size: 1rem;
+   top: 1430px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Connect4Age{
+      font-size: 1rem;
+      top: 1020px;
+       }
+     }
+
+  @media (max-width: 1100px) {
+    .Connect4Players{
+      font-size: 1rem;
+      top: 1020px;
+       }
+     }
+
+
+  @media (max-width: 500px) {
+    .Connect4Age{
+      font-size: 1rem;
+      top: 982px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Connect4Players{
+      font-size: 1rem;
+      top: 982px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .Battleship {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 1950px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Battleship {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 1500px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Battleship {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 1500px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Battleship {
+      font-size: 2.5rem;
+      position: absolute;
+      top: 1442px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .BattleshipPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 1600px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .BattleshipPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 1600px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .BattleshipPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 3px;
+      top: 1535px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .BattleshipBody {
+   font-size: 1rem;
+   top: 2250px;
+    }
+  }
+  
+
+  @media (max-width: 1100px) {
+    .BattleshipBody {
+   font-size: 1rem;
+   top: 1580px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .BattleshipBody {
+      font-size: 1rem;
+   top: 1580px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .BattleshipBody {
+      font-size: 1rem;
+   top: 1473px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .AgeBattleship {
+   font-size: 1rem;
+   top: 2250px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .PlayersBattleship {
+   font-size: 1rem;
+   top: 2250px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .AgeBattleship{
+      font-size: 1rem;
+      top: 1580px;
+       }
+     }
+
+  @media (max-width: 1100px) {
+    .PlayersBattleship{
+      font-size: 1rem;
+      top: 1580px;
+       }
+     }
+
+
+     @media (max-width: 900px) {
+        .AgeBattleship {
+       font-size: 1rem;
+       top: 1580px;
+        }
+      }
+    
+      @media (max-width: 900px) {
+        .PlayersBattleship {
+       font-size: 1rem;
+       top: 1580px;
+        }
+      }
+
+  @media (max-width: 500px) {
+    .AgeBattleship{
+      font-size: 1rem;
+      top: 1473px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .PlayersBattleship{
+      font-size: 1rem;
+      top: 1473px;
+    }
+  }

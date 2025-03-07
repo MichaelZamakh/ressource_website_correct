@@ -1,0 +1,713 @@
+body{
+  margin: 0px;
+  background-color: #F6E5DC;
+}
+
+.GridContainerForBodyText{
+  max-width: 550px;
+  display: block;
+  border: 1px solid red;
+  position: absolute;
+  top: -650px;
+  left: 300px;
+  padding: 10px;
+  margin: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.01rem;
+  padding-right: 0.01rem;
+  align-items: start;
+  gap: 1em;
+}
+
+.QuickThinking{
+  color: black;
+  font-family: Lubalin Graph ITC Turner Bold;
+  font-size: 3.9375rem;
+  color: #653B2F;
+  position: absolute;
+  top: -50px;
+}
+
+.SeparateCellForTapple{
+  display: grid;
+  border: 1px solid red;
+}
+.Tapple{
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #653B2F;
+    position: absolute;
+    top: 70px;
+}
+
+.TapplePic{
+    width: 825px; 
+    height: auto;
+  position: absolute;
+  top: 150px;
+  width: 130%; 
+    max-width: none; 
+    margin-left: 0; 
+    margin-right: -30%; 
+    display: block; 
+}
+
+.TappleBody{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 700px;
+}
+
+.AgeTapple{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  position: relative;
+  top: 700px;
+}
+
+.PlayersTapple{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 700px;
+}
+
+.SeparateCellForAnomia{
+  display: grid;
+  border: 1px solid red;
+}
+
+.Anomia{
+  font-family: Lato;
+  font-weight:bold;
+  font-size: 2rem;
+  color: #653B2F;
+  position: absolute;
+  top: 950px;
+}
+
+.AnomiaPic{
+  width: 825px; 
+  height: auto;
+position: absolute;
+top: 1030px;
+width: 130%; 
+  max-width: none; 
+  margin-left: 0; 
+  margin-right: -30%; 
+  display: block; 
+}
+
+.AnomiaBody{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 1385px;
+}
+
+.AnomiaAge{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 1385px;
+}
+
+.AnomiaPlayers{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 1385px;
+}
+
+.SeparateCellForBrainFart{
+  display: grid;
+  border: 1px solid red;
+}
+
+.BrainFart{
+    font-family: Lato;
+    font-weight:bold;
+    font-size: 2rem;
+    color: #653B2F;
+    position: absolute;
+    top: 1900px;
+}
+
+.BrainFartPic{
+  width: 825px; 
+  height: auto;
+position: absolute;
+top: 1996px;
+width: 130%; 
+  max-width: none; 
+  margin-left: 0; 
+  margin-right: -30%; 
+  display: block; 
+}
+
+.BrainFartBody{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 2100px;
+}
+
+.AgeBrainFart{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 2100px;
+}
+
+.PlayersBrainFart{
+  color: black;
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 1.25rem;
+  position: relative;
+  top: 2100px;
+}
+
+.NavigationBar ul{
+  list-style-type: none;
+  background-color: rgb(84, 84, 84);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-family: helvetica;
+  font-size: 20px;
+  }
+
+.NavigationBar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.NavigationBar a:hover{
+  background-color: rgb(52, 52, 52);
+}
+
+.NavigationBar li{
+  float: left;
+}
+
+@media (max-width: 1730px) {
+  .GridContainerForBodyText {
+    margin: 750px 200px 0px 200px; 
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .GridContainerForBodyText {
+    margin: 750px 100px 0px 0px; 
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .GridContainerForBodyText {
+    margin: 750px 200px 0px 0px; 
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .GridContainerForBodyText {
+    font-size: 20px;
+    margin: 750px 0px 0px -100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .GridContainerForBodyText {
+    font-size: 20px;
+    margin: 750px 0 0px -200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .GridContainerForBodyText {
+    font-size: 20px;
+    margin: 750px 0 0px -250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .GridContainerForBodyText {
+    font-size: 20px;
+    margin: 750px 0 0px -290px;
+  }
+}
+
+@media (max-width: 500px) {
+  .GridContainerForBodyText {
+    font-size: 20px;
+    margin: 750px 0 0px -300px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 393px) {
+  .GridContainerForBodyText {
+    font-size: 20px;
+    margin: 750px -3px 0px -300px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .QuickThinking {
+    font-size: 3.9375rem;
+    top: -70px;
+  }
+
+  @media (max-width: 900px) {
+    .QuickThinking {
+      font-size: 3.9375rem;
+      top: -50px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .QuickThinking {
+      font-size: 2.25rem;
+      position: absolute;
+      top: 30px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Tapple {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Tapple {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 107px;
+    }
+  }
+
+@media (max-width: 1100px) {
+  .TapplePic {
+    width: 550px; 
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .TapplePic {
+    width: 450px; 
+    height: auto;
+    position: absolute;
+    left: 25px;
+    top: 160px;
+  }
+}
+
+@media (max-width: 393px) {
+  .TapplePic {
+    width: 350px; 
+    height: auto;
+    position: absolute;
+    left: 25px;
+    top: 160px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .TappleBody {
+ font-size: 1rem;
+ top: 570px;
+  }
+}
+
+@media (max-width: 500px) {
+  .TappleBody {
+ top: 490px;
+  }
+}
+
+@media (max-width: 393px) {
+  .TappleBody {
+ top: 410px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .AgeTapple {
+ font-size: 1rem;
+ top: 570px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .PlayersTapple {
+ font-size: 1rem;
+ top: 570px;
+  }
+}
+
+  @media (max-width: 500px) {
+    .AgeTapple {
+      top: 490px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .PlayersTapple {
+      top: 490px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .AgeTapple {
+      top: 410px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .PlayersTapple {
+      top: 410px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .Anomia {
+      font-size: 2rem;
+      position: absolute;
+      top: 800px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .Anomia {
+      font-size: 2rem;
+      position: absolute;
+      top: 800px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .Anomia {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 760px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .AnomiaPic {
+      width: 550px; 
+      height: auto;
+      position: absolute;
+      left: 0px;
+      top: 880px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .AnomiaPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 820px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .AnomiaPic {
+      width: 350px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 820px;
+    }
+  }
+
+
+  
+  @media (max-width: 1300px) {
+    .AnomiaBody {
+      font-size: 1rem;
+      top: 1000px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .AnomiaBody {
+      font-size: 1rem;
+      position: relative;
+      top: 1140px;
+    }
+  }
+  
+
+  @media (max-width: 500px) {
+    .AnomiaBody {
+      font-size: 1rem;
+      position: relative;
+      top: 990px;
+    }
+  }
+  
+  @media (max-width: 393px) {
+    .AnomiaBody {
+      font-size: 1rem;
+      position: relative;
+   top: 890px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .AnomiaAge {
+   font-size: 1rem;
+   top: 990px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .AnomiaPlayers {
+      top: 990px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .AnomiaAge{
+      font-size: 1rem;
+      position: relative;
+      top: 1140px;
+       }
+     }
+
+  @media (max-width: 1100px) {
+    .AnomiaPlayers{
+      font-size: 1rem;
+      position: relative;
+      top: 1140px;
+       }
+     }
+
+
+  @media (max-width: 500px) {
+    .AnomiaAge{
+      font-size: 1rem;
+      position: relative;
+      top: 990px;   }
+  }
+
+  @media (max-width: 500px) {
+    .AnomiaPlayers{
+      font-size: 1rem;
+      position: relative;
+      top: 990px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .AnomiaAge{
+      font-size: 1rem;
+      position: relative;
+      top: 890px;   }
+  }
+
+  @media (max-width: 393px) {
+    .AnomiaPlayers{
+      font-size: 1rem;
+      position: relative;
+      top: 890px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .BrainFart {
+      font-size: 2rem;
+      position: absolute;
+      top: 1550px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .BrainFart {
+      font-size: 2rem;
+      position: absolute;
+      top: 1540px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .BrainFart {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 1460px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .BrainFartPic {
+      width: 550px; 
+      height: auto;
+      position: absolute;
+      left: 0px;
+      top: 1630px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .BrainFartPic {
+      width: 550px; 
+      height: auto;
+      position: absolute;
+      left: 0px;
+      top: 1620px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .BrainFartPic {
+      width: 450px; 
+      height: auto;
+      position: absolute;
+      left: 20px;
+      top: 1520px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .BrainFartPic {
+      width: 350px; 
+      height: auto;
+      position: absolute;
+      left: 25px;
+      top: 1520px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .BrainFartBody {
+   font-size: 1rem;
+   top: 1450px;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .BrainFartBody {
+   font-size: 1rem;
+   top: 1710px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .BrainFartBody {
+      font-size: 1rem;
+   top: 1700px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .BrainFartBody {
+      font-size: 1rem;
+      top: 1490px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .BrainFartBody {
+      font-size: 1rem;
+      top: 1370px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .AgeBrainFart {
+   font-size: 1rem;
+   top: 1450px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .PlayersBrainFart {
+   font-size: 1rem;
+   top: 1450px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .AgeBrainFart{
+      font-size: 1rem;
+      top: 1710px;
+       }
+     }
+
+  @media (max-width: 1100px) {
+    .PlayersBrainFart{
+      font-size: 1rem;
+      top: 1710px;
+       }
+     }
+
+
+  @media (max-width: 500px) {
+    .AgeBrainFart{
+      font-size: 1rem;
+      position: relative;
+      top: 1490px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .PlayersBrainFart{
+      font-size: 1rem;
+      position: relative;
+      top: 1495px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .AgeBrainFart{
+      font-size: 1rem;
+      position: relative;
+      top: 1370px;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .PlayersBrainFart{
+      font-size: 1rem;
+      position: relative;
+      top: 1370px;
+    }
+  }
+
+
+  
